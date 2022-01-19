@@ -34,6 +34,8 @@ Testando as rotas
 Abra o Insomnia/Postman 
 
 POST: http://localhost:3003/users/register
+
+
 Body: {
 	"firstName": "Gabrielle",
 	"lastName": "Tavares",
@@ -43,12 +45,18 @@ Body: {
 }
 
 GET: http://localhost:3003/users/61e7762b06e53363f6158e60
+
+
 PUT: http://localhost:3003/users/61e7762b06e53363f6158e60
+
+
 Body: {
 
 	"lastName": "Souza Tavares"
 
 }
+
+
 
 DELETE: http://localhost:3003/users/61e7762b06e53363f6158e60
 
